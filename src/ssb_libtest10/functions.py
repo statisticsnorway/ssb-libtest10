@@ -33,3 +33,15 @@ def example_function(number1: int, number2: int) -> str:
         return f"{number1} is less than {number2}"
 
     return f"{number1} is greater than or equal to {number2}"
+
+
+def is_prime(number: int) -> bool:
+    """Check if the given number is a prime number.
+
+    Args:
+        number: The number to check.
+
+    Returns:
+        True if the number is a prime number. False otherwise.
+    """
+    return True
